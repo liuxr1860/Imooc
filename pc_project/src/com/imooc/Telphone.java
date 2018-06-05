@@ -2,7 +2,7 @@ package com.imooc;
 
 public class Telphone {
 	//构造函数
-	Telphone() {
+	public Telphone() {
 		System.out.println("构造函数执行");
 	}
 	//属性
