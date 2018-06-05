@@ -7,7 +7,7 @@ public class InitalTelphone {
 		Telphone phone = new Telphone();
 		phone.call();
 		phone.sendMessage();
-		
+		phone.settings();
 
 	}
 

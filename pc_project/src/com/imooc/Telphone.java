@@ -16,5 +16,8 @@ public class Telphone {
     void sendMessage( ) {
     	System.out.println("Telphone具有发短信的功能");
     }
+    void settings( ) {
+    	System.out.println("手机配置的屏幕为:"+screen);
+    }
 
 }
