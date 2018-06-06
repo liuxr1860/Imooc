@@ -3,7 +3,10 @@ package com.imooc;
 
 public class HelloWorld {
 	static String hobby = "imooc";
-	String name = "慕课网";
+	String name;
+	{
+		name = "慕课网";
+	}
 	
 	static void print( ) {
 		System.out.println("静态方法中调用静态变量:"+hobby);
