@@ -7,7 +7,13 @@ public class HelloWorld {
 	{
 		name = "慕课网";
 	}
-	
+	//定义内部类，这是一个成员内部类
+	private class Inner {
+		//内部类的方法
+		private void show() {
+			System.out.println("welcome to imooc!");
+		}
+	}
 	static void print( ) {
 		System.out.println("静态方法中调用静态变量:"+hobby);
 //		System.out.println("静态方法中调用非静态变量:"+name);
@@ -30,6 +36,8 @@ public static void main(String[] args) {
 		HelloWorld.print();
 		HelloWorld hello = new HelloWorld();
 		hello.printExtern();
+		Inner i = hello.new Inner();
+		i.show();
 	}
 
 }
