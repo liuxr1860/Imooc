@@ -11,8 +11,14 @@ public class HelloWorld {
 	private class Inner {
 		//内部类的方法
 		private void show() {
-			System.out.println("welcome to imooc!");
+			System.out.println("this is normal inner class!");
 		}
+	}
+	static class InnerExt {
+		void show() {
+			System.out.println("this is static inner class!");
+		}
+		
 	}
 	static void print( ) {
 		System.out.println("静态方法中调用静态变量:"+hobby);
@@ -36,8 +42,12 @@ public static void main(String[] args) {
 		HelloWorld.print();
 		HelloWorld hello = new HelloWorld();
 		hello.printExtern();
+		/*内部类的使用一定要用外部类的对象来进行初始化*/
 		Inner i = hello.new Inner();
+		/*静态内部类的初始化不需要外部对象*/
+		InnerExt j = new InnerExt();
 		i.show();
+		j.show();
 	}
 
 }
