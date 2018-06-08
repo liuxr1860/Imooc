@@ -9,7 +9,7 @@ public class HelloWorld {
 	}
 	// 外部类中的show方法
     public void show() { 
-		// 定义方法内部类
+		// 定义内部类，这是方法内部类
 		class MInner {
 			int score = 83;
 			public int getScore() {
@@ -29,6 +29,7 @@ public class HelloWorld {
 			System.out.println("this is normal inner class!");
 		}
 	}
+	//这是一个静态内部类
 	static class InnerExt {
 		void show() {
 			System.out.println("this is static inner class!");
@@ -39,6 +40,10 @@ public class HelloWorld {
 		System.out.println("静态方法中调用静态变量:"+hobby);
 //		System.out.println("静态方法中调用非静态变量:"+name);
 		/*静态方法中不能调用非静态变量的原因是，静态方法在初始化时就分配了内存空间，但是非静态变量不会，因此此时调用非静态变量，由于没有实例化，该变量在内存中无法访问*/
+	}
+//这是一个匿名内部类，还需要继续学习
+	class UnnamedClass {
+		
 	}
 	void printExtern( ) {
 		System.out.println("非静态方法中调用非静态变量:"+name);
