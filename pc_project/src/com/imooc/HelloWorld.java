@@ -59,6 +59,7 @@ public static void main(String[] args) {
 		HelloWorld.hobby = "爱慕课";
 		System.out.println("使用对象名来访问hobby:"+hello.hobby);
 		System.out.println("使用类名访问hobby:"+HelloWorld.hobby);*/
+	    System.out.println("2018-0625打卡");
 		HelloWorld.print();
 		HelloWorld hello = new HelloWorld();
 		hello.printExtern();
