@@ -1,6 +1,7 @@
 package com.imooc;
 
-
+/*匿名内部类总结*/
+/*相当于通过一种简洁的方式，定义一个类，或者是抽象类的子类对象，或者是定义一个接口的实现类对象*/
 public class AnonymousClass {
     public static void main(String[] args) {
         //4.匿名内部类
@@ -50,7 +51,7 @@ class Person{
 }
 class Student extends Person{
     public void eat(){
-        System.out.println("吃八元套餐");
+        System.out.println("吃霸王餐");
     }
 }
 //抽象类
