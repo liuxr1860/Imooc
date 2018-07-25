@@ -59,7 +59,7 @@ abstract class Animal{
 }
 class Dog extends Animal{
     public void bark() {
-        System.out.println("ÍôÍô...");
+        System.out.println("ÍôÍô....");
     }
 }
 //½Ó¿Ú
