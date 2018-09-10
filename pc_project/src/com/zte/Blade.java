@@ -9,6 +9,7 @@ public class Blade {
 		System.out.println("有参的构造方法被调用");
 		this.DeviceName = DeviceName;
 		this.CpuManufactory = CpuManufactory;
+		/*注意，static 方法中不允许使用this*/
 	}
 	/*属性*/
 	String DeviceName="6739Device";
