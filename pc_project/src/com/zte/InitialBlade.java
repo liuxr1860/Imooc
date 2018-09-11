@@ -12,6 +12,8 @@ public class InitialBlade {
 		BladeV9 V9 = new BladeV9("V9","QCOM");
 		V9.getDeviceName();
 		V9.getCpuInfo();
+		
+		Blade V9vita = new BladeV9();
 
 	}
 
