@@ -11,5 +11,8 @@ public class BladeV9 extends Blade {
 		/*注意，static 方法中不允许使用this*/
 	}
 	String V9CPUInfo = "QCOM8940";
+	void getProductName() {
+		System.out.println("this is BladeV9");
+	}
 
 }

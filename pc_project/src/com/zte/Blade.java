@@ -29,5 +29,8 @@ public class Blade {
 		float dataSize = this.ROM - systemSize;
 		return dataSize;
 	}
+	void getProductName() {
+		System.out.println("this is Blade");
+	}
 
 }
