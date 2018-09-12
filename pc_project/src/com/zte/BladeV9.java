@@ -14,5 +14,8 @@ public class BladeV9 extends Blade {
 	void getProductName() {
 		System.out.println("this is BladeV9");
 	}
+	void call() {
+		System.out.println("BladeV9 call");
+	}
 
 }
