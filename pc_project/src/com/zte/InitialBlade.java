@@ -22,7 +22,7 @@ public class InitialBlade {
 		/*多态的典型应用*/
 		Blade P86F = new Blade();
 		BladeV9 v9 = new BladeV9();
-//		P86F = v9;
+//		P86F = v9;/*隐式引用类型转换*/
 //		
 		P86F.getProductName();
 //		P86F.call();
@@ -30,8 +30,7 @@ public class InitialBlade {
 		if(P86F instanceof BladeV9) {
 			System.out.println("可以转换");
 			v9 = (BladeV9)P86F;
-			
-		}else {
+				}else {
 			System.out.println("不能转换");
 		}
 
