@@ -3,15 +3,24 @@ package com.shape;
 public class Rectangle extends Shape {
 
 	@Override
-	float circumference() {
+	void circumference() {
 		// TODO Auto-generated method stub
-		return 0;
+		float Circle = (length+width)*2;
+		System.out.println("长方形周长等于:"+Circle);
+	}
+	float length;
+	float width;
+	void set(float length,float width) {
+		this.length = length;
+		this.width = width;
 	}
 
 	@Override
-	float area() {
+	void area() {
 		// TODO Auto-generated method stub
-		return 0;
+		float Area = length*width;
+		System.out.println("长方形面积等于:"+Area);
+		
 	}
 
 }

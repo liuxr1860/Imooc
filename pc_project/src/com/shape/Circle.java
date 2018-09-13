@@ -3,15 +3,13 @@ package com.shape;
 public class Circle extends Shape {
 
 	@Override
-	float circumference() {
+	void circumference() {
 		// TODO Auto-generated method stub
-		return 0;
 	}
 
 	@Override
-	float area() {
+	void area() {
 		// TODO Auto-generated method stub
-		return 0;
 	}
 
 }
