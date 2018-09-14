@@ -8,6 +8,10 @@ public class InitalShape {
 		rec.set(20, 30);
 		rec.circumference();
 		rec.area();
+		Circle cir = new Circle();
+		cir.setRidus(500);
+		cir.circumference();
+		cir.area();
 
 	}
 
